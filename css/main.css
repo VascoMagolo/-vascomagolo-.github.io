@@ -137,6 +137,111 @@ li:hover {
     background-color: rgb(202, 213, 223);
 }
 
+
+.workexp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.workexp div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(184, 174, 161, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.workexp div p {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.education div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(184, 174, 161, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.education div p {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.skills div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(184, 174, 161, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skills div p {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.contact div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(184, 174, 161, 0.3);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact div p {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
