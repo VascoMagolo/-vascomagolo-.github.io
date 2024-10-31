@@ -76,21 +76,29 @@ hr {
     margin-top: 100px;
 }
 
-.projects h2, .skills h2, .abouts h2, .workexp h2, .education h2, .certificate h2 {
+.projects h2,
+.skills h2,
+.abouts h2,
+.workexp h2,
+.education h2,
+.certificate h2 {
     text-align: center;
     font-size: 3rem;
     margin-top: 40px;
     margin-bottom: 12px;
 }
-.skills{
+
+.skills {
     margin-top: 40px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.1);
-    h2{
-        margin-top: 5px;
-        margin-bottom: -15px;
-    }
 }
+
+.skills h2 {
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+
 .abouts div,
 .workexp div,
 .education div,
@@ -212,7 +220,7 @@ li:hover {
     margin: 20px;
 }
 
-.skill div h3{
+.skill div h3 {
     margin: 7px;
 }
 
@@ -247,7 +255,6 @@ footer {
     background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
 }
-
 
 @media (max-width: 768px) {
     .nav_item {
