@@ -9,7 +9,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     overflow: hidden;
     top: 0;
@@ -19,6 +19,7 @@ nav {
     left: 0;
     z-index: 1000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 4px;
 }
 
 .nav_item {
@@ -58,6 +59,15 @@ nav {
     color: #1e90ff;
 }
 
+.name h1 {
+    font-size: 5rem;
+    margin: 12px;
+}
+
+hr {
+    width: 80%;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -66,10 +76,25 @@ nav {
     margin-top: 100px;
 }
 
-.about div,
+.projects h2, .skills h2, .abouts h2, .workexp h2, .education h2, .certificate h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.skills{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    h2{
+        margin-top: 5px;
+        margin-bottom: -15px;
+    }
+}
+.abouts div,
 .workexp div,
 .education div,
-.skills div,
+.skill div,
 .certificate li,
 .contact div {
     transform: scale(1);
@@ -82,6 +107,7 @@ nav {
     font-weight: bold;
     margin: 0;
     padding: 0;
+    letter-spacing: 0.3px;
 }
 
 .project {
@@ -89,10 +115,6 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     margin: 20px;
-}
-
-.project h2 {
-    text-align: center;
 }
 
 .project img {
@@ -118,7 +140,7 @@ nav {
 .about div,
 .workexp div,
 .education div,
-.skills div,
+.skill div,
 .certificate li,
 .contact div {
     display: flex;
@@ -128,7 +150,7 @@ nav {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
+    margin: 12px;
 }
 
 li {
@@ -154,16 +176,17 @@ li:hover {
 
 .workexp div:hover,
 .education div:hover,
-.skills div:hover,
+.skill div:hover,
 .certificate li:hover,
-.contact div:hover {
+.contact div:hover,
+.about div:hover {
     transform: scale(1.1);
     transition: transform 0.5s;
 }
 
 .workexp div p,
 .education div p,
-.skills div p,
+.skill div p,
 .certificate li p,
 .contact div p {
     text-align: center;
@@ -180,15 +203,17 @@ li:hover {
     margin: 20px;
 }
 
-.skills {
+.skill {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
     display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     margin: 20px;
+}
+
+.skill div h3{
+    margin: 7px;
 }
 
 .certificate {
@@ -221,4 +246,20 @@ footer {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .nav_item {
+        margin: 8px 0;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .project {
+        grid-template-columns: 1fr;
+    }
+    .main {
+        padding-top: 60px;
+    }
 }
