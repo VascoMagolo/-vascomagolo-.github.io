@@ -278,6 +278,13 @@ footer {
     width: 100%;
 }
 
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
 @media (max-width: 768px) {
     .nav_item {
         margin: 8px 0;
@@ -290,5 +297,9 @@ footer {
     }
     .main {
         padding-top: 60px;
+    }
+    object{
+        width: 100%;
+        height: 100%;
     }
 }
